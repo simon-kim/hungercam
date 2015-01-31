@@ -18,7 +18,11 @@ them. Thus, this is just a fun project that will fill the empty void in my heart
 until I can figure out a better way to do this.
 
 -Be able to take a picture and upload it.
+
 -Be able to use filters.
+
 -Add geolocation so that the food photo can help lead to the food location.
+
 -Add an upvote system so that the most popular food photos are shown first.
+
 -Much more to make this a more long-term and interactive/social project/reality!
