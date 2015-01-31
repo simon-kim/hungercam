@@ -7,7 +7,7 @@ var app           = express();
 
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(bodyparser.json());
-app.use(express.static(__dirname + '/app'));
+app.use(express.static(__dirname + '/build'));
 
 app.listen(port, function() {
   console.log('Server is running on port ' + port);

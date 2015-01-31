@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="hungercam">
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css" />
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>HungerCam</title>
+</head>
+<body>
+<header>
+  <h1 class="animated fadeInDown"><img src="img/hungercam.png"/>HungerCam</h1>
+  <h3 class="animated fadeInDown"> Find out what people around the world are eating on <a href="http://www.instagram.com">Instagram</a> (refresh for more)</h3>
+</header>
+<section ng-controller="ShowImages as images">
+  <div class="spot animated fadeInUp" ng-repeat="p in pics">
+    <a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.thumbnail.url}}" /></a>
+  </div>
+</section>
+<script src="app_bundle.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
