@@ -1,0 +1,31 @@
+{
+  "name": "hungercam",
+  "version": "1.0.0",
+  "description": "Web app for food photos using Instagram's API",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simon-kim/hungercam.git"
+  },
+  "author": "Simon Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simon-kim/hungercam/issues"
+  },
+  "homepage": "https://github.com/simon-kim/hungercam",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "bower": "^1.3.12",
+    "express": "^4.11.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-jscs": "^1.2.0"
+  }
+}
