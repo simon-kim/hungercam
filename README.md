@@ -1,6 +1,6 @@
 # HungerCam
 
-http://heroku.hungercam.com
+https://hungercam.herokuapp.com/
 
 Originally, HungerCam was supposed to be an application that helped separate the
 hipster foodies from the hipster photographers on Instagram. It was also supposed
